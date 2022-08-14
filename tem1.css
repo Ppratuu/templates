@@ -1,0 +1,56 @@
+header{
+    background-color: #fdfdfd;
+    color: #272727;
+}
+.logo{
+    font-size: 30px;
+    margin-top: 10px;
+}
+header .nav li a{
+    color: #333;
+    margin-top: 10px;
+}
+header .nav li a:hover,header .nav li a:focus{
+    color: #fdfdfd;
+    background-color: #2596da;
+}
+.banner{
+    background-color: #2596da;
+    padding: 20px 0;
+}
+.banner i{
+    color: #fdfdfd;
+    margin-top: 75px;
+}
+.banner h3{
+    color: #fdfdfd;
+}
+.h2{
+    margin-left: 15px;
+}
+.contain img{
+    border-radius: 350px;
+    margin-left: 10px;
+}
+.contain h4{
+    margin-left: 50px;
+}
+.contain p{
+    margin-left: 50px;
+}
+.port h4{
+    margin-left: 20px;
+}
+footer button{
+    margin-left: 30px;
+}
+@media(max-width: 767px){
+    input{
+        width: 100%;
+    }
+}
+@media(min-width: 768px) and (max-width: 1200px){
+    input{
+        width: 70%;
+    }
+}

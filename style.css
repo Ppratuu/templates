@@ -1,0 +1,55 @@
+header{
+    background: #272727;
+    color: #ccc;
+}
+.logo{
+    font-size: 24px;
+    margin-top: 10px;
+}
+header .nav li a{
+    color: #ccc;
+}
+header .nav li a:hover,header .nav li a:focus{
+    color: #333;
+}
+.banner{
+    background: #408bc5;
+    background: linear-gradient(to bottom right, #408bc5, #2e6492);
+    background: -webkit-linear-gradient(to bottom right, #408bc5, #2e6492); /*safari*/
+    background: -moz-linear-gradient(to bottom right, #408bc5, #2e6492);/*mozilla*/
+    padding: 30px 0;
+}
+.banner h2{
+    margin-top: 0;
+}
+.banner P{
+    line-height: 1.6em;
+}
+footer{
+    background: #272727;
+    color: #ccc;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+footer .nav li a{
+    padding:5px 0;
+    color:#ccc;
+}
+footer .nav li a:hover, footer .nav li a:focus{
+    color: #fff;
+    background: none;
+}
+footer h3{
+    font-size: 20px;
+}
+@media(max-width: 767px){
+    .banner h2{
+        margin-top: 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .banner h2{
+        font-size: 20px;
+        line-height: 1.6em;
+    }
+}

@@ -1,0 +1,82 @@
+header{
+    background-color: #d8dff2;
+    color: #272727;
+}
+.logo{
+    font-size: 30px;
+    color: #4b5ca2;
+}
+header .nav li a{
+    color: #5671aa;
+    margin-top: 10px;
+}
+header .nav li a:hover,header .nav li a:focus{
+    color: #272727;
+    background-color: #fdfdfd;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-top: 20px;
+}
+.banner{
+    background-color: #99a4dc;
+}
+.bann{
+    background-color: #ccd4e8;
+}
+.bann h2{
+    color: #58657c;
+}
+.website{
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #909ad5;
+}
+.website i{
+    margin-top: 30px;
+    color: #303f6c;
+}
+.website h6,.website h3{
+    color: #eaeff5;
+}
+.box{
+    border-style:inset;
+    background-color: #ffffff;
+}
+.box img,.box p{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.box h4{
+    color: #313b51;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+button{
+    margin-left: 25px;
+    border-radius: 25px;
+    color: #909ad5;
+}
+.first-row h4,.second-row h4, h3,.note{
+    color: #303f6c;
+}
+.first-row p,.second-row p,p{
+    color: #687388;
+}
+footer{
+    background-color: #303f6c;
+}
+footer .nav li a{
+    color: #ffffff;
+    margin-top: 10px;
+}
+footer .nav li a:hover,footer .nav li a:focus{
+    color: #272727;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-top: 20px;
+}
+footer h5{
+    color: #ffffff;
+    margin-top: 20px;
+}

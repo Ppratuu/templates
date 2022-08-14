@@ -1,0 +1,122 @@
+header{
+    background-color: #333b3d;
+    color: #ffffff;
+}
+.menu ul{
+    background-color: #48494d;
+    border-radius: 10px;
+    margin-top: -25px;
+    margin-left: 150px;
+}
+.menu .nav li a{
+    color: #ffffff;
+}
+.menu .nav li a:hover,menu .nav li a:focus{
+    color: #333b3d;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    padding: 6px 6px;
+    margin-top: 10px;
+}
+.banner{
+    background-color: #e6e6e6;
+    margin-top: -25px;
+}
+.banner ul li{
+    color: #989898;
+    list-style:none;
+    border-style: outset;
+    height: 30px;
+    background-color: #e6e6e6;
+    margin-left: -35px;
+}
+.news,.feature{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.news h4,.feature h4{
+    color: #dbcb8d;
+}
+.news h5{
+    color: #49b0c2;
+}
+.news h6{
+    margin-left: 150px;
+}
+.feature h6{
+    float: right;
+}
+.house{
+    border-style: groove;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.house img{
+    margin-top: 15px;
+}
+.search{
+    background-color: #c5d7e5;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.search h4{
+    color: #ffffff;
+}
+.room{
+
+   justify-content: space-between;
+}
+.room input{
+    width: 75px;
+}
+button{
+    border-radius: 150px;
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 50%;
+    color: #333b3d;
+    background-color: #75c6f8;
+}
+footer{
+    background-color: #e6e6e6;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    min-width: 70px;
+
+}
+footer ul li a{
+    margin-top: 10px;
+    color: #333b3d;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+@media(max-width: 767px){
+    .menu ul{
+        margin-top: -55px;
+        margin-left: 150px;
+    }
+    .banner{
+        margin-top: 5px;
+    }
+    footer ul{
+        display: inline-block;
+   }
+    footer ul li{
+        min-width: 70px;
+        display: inline-block;
+        margin-left: -15px;
+    }
+    .search{
+        margin-top: 15px;
+    }
+}
+@media(min-width: 768px) and (max-width: 1200px){
+   footer ul li{
+       display: flex;
+   }
+}
